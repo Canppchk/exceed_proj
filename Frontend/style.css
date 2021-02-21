@@ -1,0 +1,236 @@
+body {
+    font-family: "Gill Sans", sans-serif !important;
+}
+
+#header {
+    width: 100%;
+    font-size: 10rem;
+    font-weight: bold;
+    font-family: 'Helvetica Neue', sans-serif;
+    letter-spacing: 1;
+    text-align: center;
+}
+
+.row {
+    display: block;
+    padding: 2rem;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#patient-status {
+    color:rgb(240, 240, 240);
+    min-width: 25rem;
+    max-width: 25rem;
+    min-height: 30rem;
+    max-height: 30rem;
+}
+
+#status-light {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: rgb(30, 255, 9);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#profile-pic {
+    display: block;
+    padding: 1rem;
+    min-width: 22rem;
+    max-width: 22rem;
+    background-color: antiquewhite;
+}
+
+#patient-info {
+    min-width: 35rem;
+    max-width: 50rem;
+    min-height: 20rem;
+    max-height: none;
+    font-size: 2.75rem;
+    padding: 3rem;
+}
+
+#sentText {
+    min-width: 45rem;
+    max-width: 50rem;
+    min-height: 20rem;
+    max-height: none;
+}
+
+#formText {
+    min-width: 45rem;
+    max-width: 50rem;
+    min-height: 20rem;
+    padding: 2rem;
+    padding-bottom: 0rem;
+}
+
+#message-label {
+    font-size: 2.5rem;
+}
+
+#message {
+    display: block;
+    margin:auto;
+    font-size: 2rem;
+    width: 32rem;
+    height: 6rem;
+}
+
+#error-message {
+    display: none;
+}
+
+#hours ,#mins {
+    display: block;
+    padding: 1rem;
+    font-size: 2rem;
+    height: 6rem;
+}
+
+#colbut {
+    padding: 0.1rem;
+}
+
+#set-time, #save-time, #sent-message, #close-popup {
+    display: block;
+    margin: auto;
+    font-size: 2.5rem;
+    width: 12.5rem;
+    height: 6rem;
+}
+
+#popup {
+    font-size: 2rem;
+}
+
+#hours, #mins {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 2rem;
+    height: 5rem;
+}
+
+.day {
+    background-color: gainsboro;
+    height: 5rem;
+    width: 5rem;
+    border: 0;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0.5rem;
+    transition: transform .2s;
+}
+
+#add-form ,#reduce-form {
+    background-color: rgb(255, 217, 113);
+    text-align: center;
+    padding: 0.5rem;
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+    border: 0;
+    border-radius: 50%;
+}
+
+.day:hover {
+    transform: scale(1.2);
+}
+
+#patienticon ,#scheduleicon {
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+.text-icon {
+    font-size: 1rem;
+}
+
+#schedule-tab ,#patientlist-tab {
+    position: fixed;
+    width: 7rem;
+    height: 9rem;
+    right: 0;
+    top: 40vh;
+    padding: 0.5rem;
+    border-radius: 5%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    font-size: xxx-large;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: rgb(168, 168, 168);
+    box-shadow: 1rem 0.5rem 1rem #d4d4d4;
+    z-index: 999;
+
+    transition: .3s ease-out;
+}
+
+#patientlist-tab {
+    top: 22vh;
+}
+
+#schedule-tab:hover ,#patientlist-tab:hover {
+    background-color: rgb(218, 218, 218);
+    width: 20rem;
+}
+
+#schedule-container ,#patientlist-container{
+    height: 60vh;
+    padding: 1rem;
+    overflow-y: scroll;
+}
+
+#schedule-list {
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+
+#remove-btn {
+    position:absolute;
+    font-size: 1.5rem;
+    right: 1rem;
+    width: 10rem;
+    height: 3rem;
+    overflow: hidden;
+}
+
+.patient {
+    background-color: gainsboro;
+    color :rgb(240, 240, 240);
+    font-size: 2rem;
+    height: 5rem;
+    width: 10rem;
+    border: 0;
+    border-radius: 5%;
+    display: inline-block;
+    margin: 0.5rem;
+    transition: transform .2s;
+    text-align: center;
+}
+
+.patient:hover {
+    transform: scale(1.1);
+}
+
+#footer {
+    bottom: 0; 
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+#set-safe {
+    font-size: 1.5rem;
+    padding: .5rem 2.5rem;
+    display: block;
+    float: right;
+    margin: auto;
+}
