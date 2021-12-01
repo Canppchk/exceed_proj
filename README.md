@@ -2,10 +2,10 @@
 *This is group 3's project in Exceed camp frontend part.*
 
 ## What is CABP?
-**CABP** is Covid Alert Button for Patient Monitor use for monitoring Covid-19 patients especially elderly person.<br>
-It can check and notify the monitorer whenever patient is in danger ex. falling, gas leak.<br>
-It can send message directly to patient.<br>
-And also can set schedule for some activities like, have a medicine at 11:00 pm Sunday and Monday, It will send the message to patient when the time come.  
+**CABP** is Covid Alert Belt for Patient Monitor used for monitoring Covid-19 patients especially elderly persons.
+It can check and notify the monitoring whenever the patient is in danger ex. falling, gas leak.
+It can send messages directly to attendants.
+And also can set a schedule for some activities like, have medicine at 11:00 pm Sunday and Monday, It will send the message to the patient when the time comes. 
 see [how to use.](#how-to-use-cabp)
 
 ---
