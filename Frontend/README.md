@@ -1,7 +1,7 @@
 # Exceed03-Frontend
 *This is group 3's project in Exceed camp frontend part.*
 
-## What is CAMP?
+## What is CABP?
 **CABP** is Covid Alert Button for Patient Monitor use for monitoring Covid-19 patients especially elderly person.<br>
 It can check and notify the monitorer whenever patient is in danger ex. falling, gas leak.<br>
 It can send message directly to patient.<br>
